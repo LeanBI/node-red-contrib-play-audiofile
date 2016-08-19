@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git://github.com/sbrennion/node-red-contrib-play-audio-file.git"
   },
-  "homepage": "http://leanbi.ch/industrie-40",
+  "homepage": "http://leanbi.ch/big-data/",
   "node-red": {
     "nodes": {
       "play-audio-file": "play_audio_file.js"
