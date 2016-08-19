@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('play_audio_file',{
+        category: 'output',
+        color: '#A10C0C',
+        defaults: {
+        	filename : {value:'/path/to/filename'}
+        },
+        inputs:1,
+        outputs:1,
+        label: function() {
+            return this.name||"play_audio_file";
+        },
+        oneditprepare: function() {
+            }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="play_audio_file">
+    <!-- INPUT -->
+    <div class="form-row">
+        <label for="node-input-filename"><i class="fa fa-arrow-left"></i>Audio file</label>
+        <input type="text" id="node-input-filename"  placeholder="">
+    </div>
+
+</script>
+
+<script type="text/x-red" data-help-array="play_audio_file">
+    <p>Play an audio file from disk</p>
+</script>
