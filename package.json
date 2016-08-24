@@ -2,7 +2,7 @@
   "name": "node-red-contrib-play-audio-file",
   "version": "0.0.1",
   "description": "Play an audio file",
-  "icon": "fa-file-audio-o.png",
+  "icon": "unmute.png",
   "dependencies": {
     "soundplayer": "*"
   },
