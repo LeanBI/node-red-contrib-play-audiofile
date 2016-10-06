@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sbrennion/node-red-contrib-play-audio-file.git"
+    "url": "git://github.com/sbrennion/node-red-contrib-play-audiofile.git"
   },
   "homepage": "http://leanbi.ch/big-data/",
   "node-red": {
