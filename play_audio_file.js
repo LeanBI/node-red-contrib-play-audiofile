@@ -1,7 +1,6 @@
 module.exports = function(RED) {
 
     function Play_audio_file(config) {
-        this.log("test")
     	RED.nodes.createNode(this,config);
         var node = this;
         //this.status({fill:"red",shape:"dot",text:"not started"});

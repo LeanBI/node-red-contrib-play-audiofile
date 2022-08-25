@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-play-audio-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Play an audio file",
   "dependencies": {
     "soundplayer": "*"
@@ -13,9 +13,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sbrennion/node-red-contrib-play-audiofile.git"
+    "url": "https://github.com/LeanBI/node-red-contrib-play-audiofile"
   },
-  "homepage": "http://leanbi.ch/big-data/",
   "node-red": {
     "nodes": {
       "play-audio-file": "play_audio_file.js"

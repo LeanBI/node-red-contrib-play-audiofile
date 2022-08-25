@@ -15,4 +15,3 @@ One of the CLI based audio player
 specify the audio file name to play in the config or in the message header : msg.filename=/home/me/file.mp3
 
 
-[link](http://leanbi.ch/big-data/ "leanbi")
